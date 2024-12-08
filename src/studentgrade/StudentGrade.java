@@ -24,6 +24,10 @@ public class StudentGrade {
             return "A";
         else if (mark >= 80 && mark < 90)
             return "B";
+        else if (mark >= 70 && mark < 80)
+            return "C";
+        else if (mark >= 60 && mark < 70)
+            return "D";
         else 
             return "F";
     }
