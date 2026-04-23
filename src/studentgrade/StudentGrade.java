@@ -1,7 +1,5 @@
 package studentgrade;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class StudentGrade {
 
@@ -12,7 +10,7 @@ public class StudentGrade {
                     getGrade(scan.nextInt()));
 
     } 
-    
+    // testing 
     /**
      * Calculates grade as follows:
      * A (90 - 100), B (80 - 89), F ( < 80 && > 100)
